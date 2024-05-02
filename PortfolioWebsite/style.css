@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient(circle, rgba(200, 200, 255), #3227fd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.2); /* Example background */
+    padding: 10px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* This property aligns the items in a row */
+    justify-content: center; /* This centers the items horizontally */
+    align-items: center; /* This centers the items vertically */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adjust the spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Example text color */
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffdca8;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-size: 1.5rem;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
