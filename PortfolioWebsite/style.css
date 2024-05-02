@@ -9,7 +9,6 @@
 
 body {
   font-family: sans-serif;
-  /* background-image: radial-gradient(rgb(25, 25, 112), black); */
   background-image: radial-gradient(circle, rgb(0, 238, 255), rgb(0, 19, 41));
 
   background-repeat: no-repeat;
